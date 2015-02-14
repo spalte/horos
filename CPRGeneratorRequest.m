@@ -254,10 +254,21 @@
 @synthesize origin = _origin;
 @synthesize directionX = _directionX;
 @synthesize directionY = _directionY;
+@synthesize directionZ = _directionZ;
 @synthesize pixelSpacingX = _pixelSpacingX;
 @synthesize pixelSpacingY = _pixelSpacingY;
+@dynamic pixelSpacingZ; // point to slabSampleDistance
 @synthesize projectionMode = _projectionMode;
 
+- (CGFloat)pixelSpacingZ
+{
+    return self.slabSampleDistance;
+}
+
+- (void)setPixelSpacingZ:(CGFloat)pixelSpacingZ
+{
+    self.slabSampleDistance = pixelSpacingZ;
+}
 
 + (NSSet *)keyPathsForValuesAffectingValueForKey:(NSString *)key
 {
