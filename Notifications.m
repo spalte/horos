@@ -142,3 +142,6 @@ NSString* const OsiriXLogEvent = @"OsiriXLogEvent";
 NSString* const OsirixNodeRemovedFromCurvePathNotification = @"OsirixNodeRemovedFromCurvePath";
 NSString* const OsirixUpdateCurvedPathCostNotification = @"OsirixUpdateCurvedPathCost";
 NSString* const OsirixDeletedCurvedPathNotification = @"OsirixDeletedCurvedPath";
+
+NSString* const OsirixVolumetricROIDidUpdateNotification = @"OsirixVolumetricROIDidUpdateNotification";
+

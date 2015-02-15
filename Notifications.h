@@ -140,6 +140,8 @@ extern NSString* const OsirixNodeRemovedFromCurvePathNotification;
 extern NSString* const OsirixUpdateCurvedPathCostNotification;
 extern NSString* const OsirixDeletedCurvedPathNotification;
 
+extern NSString* const OsirixVolumetricROIDidUpdateNotification;
+
 /**
  * OsirixPopulatedContextualMenuNotification
  * object: NSMenu*
