@@ -1460,6 +1460,7 @@ extern int splitPosition[ 3];
     if ([_curvedPath.bezierPath elementCount] >= 3)
 	{
         request = [[CPRStretchedGeneratorRequest alloc] init];
+        request.interpolationMode = CPRInterpolationModeCubic;
         
         if( [[self windowController] viewsPosition] == VerticalPosition)
         {
